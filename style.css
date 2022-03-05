@@ -15,3 +15,22 @@ body::before {
         width: 40%;
     }
 }
+
+
+.navmenu {
+    background-color: white;
+    list-style: none;
+    padding: 5px;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    display: none;
+    font-weight: bold;
+}
+
+
+
+.navmenu.active {
+    display: block;
+}
+
