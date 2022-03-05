@@ -1,0 +1,17 @@
+body::before {
+    display: block;
+    content: '';
+    height: 70px;
+}
+
+@media(min-width: 768px) {
+    .input-group {
+        width: 50%;
+    }
+    .learn-section {
+        width: 50%;
+    }
+    .react-img {
+        width: 40%;
+    }
+}
